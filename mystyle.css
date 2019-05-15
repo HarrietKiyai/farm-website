@@ -1,0 +1,144 @@
+* {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            margin: 0;
+        }
+
+        .container {
+            position: relative;
+            padding: 10px;
+            height: 40%;
+            
+        }
+
+        .top-left {
+            position: absolute;
+            top: 15px;
+            left: 16px;
+        }
+
+        .top-left a {
+            color: indigo;
+            text-align: center;
+            font-weight: bold;
+            padding-left: 10px;
+            text-decoration: none;
+        }
+
+        a:hover:active {
+            background-color: lightslategray;
+        }
+
+        .active {
+            background-color: none;
+        }
+
+        .top-right {
+            position: absolute;
+            top: 35px;
+            right: 20px;
+            font-size: 25px;
+            font-style: oblique;
+            color: indigo;
+            text-align: right;
+        }
+        .article {
+           position: relative;
+           padding: 10px;
+        }
+
+        .about {
+            background-color: whitesmoke;
+            padding: 10px;
+            
+        }
+
+        .activities {
+            background-color: whitesmoke;
+            position: relative;
+            padding: 30px;
+            margin-left: 10px;
+            margin-right: 10px;
+           
+            
+        }
+
+        .flex-container {
+            display: flex;
+            flex-wrap: wrap;
+            background-color: grey;
+            align-content: center;
+            justify-content: center;
+        }
+
+        .row {
+            background-color: grey;
+            padding: 10px 15px 30px 15px;
+        }
+
+        .column {
+            float: left;
+            width: 20%;
+            height: 50%;
+            padding: 5px;
+        }
+
+        .row::after {
+            content: "";
+            clear: both;
+            display: table;
+        }
+
+        .aside {
+            position: relative;
+            padding: 10px;
+           
+        }
+
+        .slogan {
+            background-color: whitesmoke;
+            padding: 10px 15px 30px 15px;
+        }
+
+        .contact {
+            position: relative;
+            padding: 10px;
+           
+        }
+
+        .details {
+            background-color: whitesmoke;
+            padding: 10px 15px 30px 15px;
+            text-align: center;
+        }
+
+        input {
+            width: 75%;
+            padding: 10px 20px;
+            margin: 8px 0;
+        }
+
+        select, textarea {
+            width: 75%;
+            padding: 10px 20px;
+            margin: 8px 0;
+
+        }
+
+        .footer {
+            position: relative;
+            padding: 10px;
+        }
+
+        .section {
+            display: block;
+            padding: 10px;
+            background-color: whitesmoke;
+            text-align: center;
+            font-size: 20px;
+           
+            
+        }
